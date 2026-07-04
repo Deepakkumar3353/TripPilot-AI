@@ -5,6 +5,7 @@ import airportsdata
 import pycountry
 import requests
 from dotenv import load_dotenv
+from langsmith import traceable
 
 load_dotenv()
 
@@ -495,6 +496,7 @@ Arrival:
 """.strip()
 
 
+@traceable(name="AviationStack Flight Search", run_type="tool")
 def search_flights(query: str, limit: int = 10):
     """
     Search live flight/status data from AviationStack using a natural-language query.
