@@ -347,16 +347,23 @@ Execution graph
 
 # 📸 Screenshots
 
-Add screenshots here.
+<!-- # 📸 Screenshots -->
 
-    <!-- docs/home.png -->
-    ![Home](Screenshots/Home_Request.png)
-    <!-- docs/langsmith.png -->
-    ![Response](Screenshots/Home_Response1.png)
-    <!-- docs/langsmith.png -->
-    <!-- docs/streamlit.png -->
-    ![langsmith](Screenshots/Langsmith.png)
-    
+## 🏠 Home Page
+
+![Home Request](Screenshots/Home_Request.png)
+
+---
+
+## 🤖 Generated Travel Plan
+
+![Response](Screenshots/Home_Respone1.png)
+
+---
+
+## 📈 LangSmith Trace
+
+![LangSmith](Screenshots/Langsmith.png)
 
 ------------------------------------------------------------------------
 
