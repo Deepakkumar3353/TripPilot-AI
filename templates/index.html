@@ -5,7 +5,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>TripMate AI</title>
+    <title>TripPilot AI</title>
 
     <link rel="stylesheet" href="/static/style.css">
 </head>
@@ -22,7 +22,7 @@
 
         <section class="hero-section">
             <div class="badge">
-                ✈️ TripMate AI — A Multi-Agent Travel Planner with LangGraph
+                ✈️ TripPilot AI — A Multi-Agent Travel Planner with LangGraph
             </div>
 
             <h1>
@@ -40,7 +40,7 @@
                 <div>
                     <h2>Where do you want to go?</h2>
                     <p>
-                        Example: Plan a complete 7 days Japan trip from Bangladesh under 2 lakhs.
+                        Example: Plan a complete 7 days Paris trip from India under 2 lakhs.
                     </p>
                 </div>
 
@@ -53,7 +53,7 @@
             <div class="input-area">
                 <textarea
                     id="userInput"
-                    placeholder="Plan a complete 7 days Japan trip including flights, hotels and sightseeing under 2 lakhs..."
+                    placeholder="Plan a complete 7 days Paris trip including flights, hotels and sightseeing under 2 lakhs..."
                 ></textarea>
 
                 <button id="sendBtn" onclick="sendMessage()">
@@ -63,15 +63,15 @@
             </div>
 
             <div class="quick-prompts">
-                <button onclick="setPrompt('Plan a complete 7 days Japan trip from Bangladesh including flights, hotels and sightseeing under 2 lakhs.')">
+                <button onclick="setPrompt('Plan a complete 7 days Paris trip from India including flights, hotels and sightseeing under 2 lakhs.')">
                     Japan Trip
                 </button>
 
-                <button onclick="setPrompt('Plan a 5 days Dubai trip from Dhaka with flights, hotels and sightseeing.')">
+                <button onclick="setPrompt('Plan a 5 days Dubai trip from Delhi with flights, hotels and sightseeing.')">
                     Dubai Trip
                 </button>
 
-                <button onclick="setPrompt('Plan a 7 days Thailand trip from Bangladesh with budget hotels and sightseeing.')">
+                <button onclick="setPrompt('Plan a 7 days Thailand trip from India with budget hotels and sightseeing.')">
                     Thailand Trip
                 </button>
 
@@ -123,7 +123,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 
     <!-- Your Custom JS -->
-    <script src="/static/script.js"></script>
+    <script src="TripPilot-AI\static\script.js"></script>
 
 </body>
 </html>
