@@ -350,12 +350,12 @@ Execution graph
 Add screenshots here.
 
     <!-- docs/home.png -->
-    [![Home](TripPilot-AI\Screenshots\Home_Request.png)](TripPilot-AI\Screenshots\Home_Request.png)
+    ![Home](Screenshots/Home_Request.png)
     <!-- docs/langsmith.png -->
-    [![TripPilot AI](TripPilot-AI\Screenshots\Home_Response1.png)](TripPilot-AI\Screenshots\Home_Response1.png)
+    ![Response](Screenshots/Home_Response1.png)
     <!-- docs/langsmith.png -->
     <!-- docs/streamlit.png -->
-    [![langsmith](TripPilot-AI\Screenshots\Langsmith.png)](TripPilot-AI\Screenshots\Langsmith.png)
+    ![langsmith](Screenshots/Langsmith.png)
     
 
 ------------------------------------------------------------------------
